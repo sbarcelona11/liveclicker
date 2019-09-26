@@ -59,8 +59,8 @@ Swagger Api documentation on [http://localhost:8080/api/documentation](http://lo
 
 - Steps:  
 1 - Login (**/api/login**)  and copy api_token present on response  
-2 - Autorize ( paste value of api_token) and validate  
-3 - Generate image (/api/generate-image)
+2 - Authorize ( paste api_token on value ) and validate  
+3 - Generate image (**/api/generate-image**)
 
 ## Important Data
 - User to test app
