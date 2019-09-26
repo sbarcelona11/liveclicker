@@ -55,8 +55,14 @@ php arisan db:seed
 vendor/bin/phpunit
 ```
 ## Documentation
-Swagger Api documentation on [http://localhost:8080/api/documentation](http://localhost:8080/api/documentation)
+Swagger Api documentation on [http://localhost:8080/api/documentation](http://localhost:8080/api/documentation)  
 
+- Steps:  
+1 - Login (**/api/login**)  and copy api_token present on response  
+2 - Autorize ( paste value of api_token) and validate  
+3 - Generate image (/api/generate-image)
+
+## Important Data
 - User to test app
 ```
 user : dev@liveclicker.com​
