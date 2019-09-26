@@ -36,6 +36,12 @@
             "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
         ]
     },
+    "repositories":[
+        {
+            "type": "vcs",
+            "url": "https://github.com/flipboxstudio/lumen-generator"
+        }
+    ],
     "config": {
         "preferred-install": "dist",
         "sort-packages": true,
