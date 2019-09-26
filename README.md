@@ -19,6 +19,7 @@ Plase run this commands on terminal to run app:
 
 - Generate .env file
 ```
+cd src
 cp .env.example .env
 ```
 Check presence of this values on .env file to connect DB:
@@ -37,7 +38,6 @@ docker exec -it php sh
 
 - Install composer dependencies
 ```
-cd ..
 composer install
 ```
 
