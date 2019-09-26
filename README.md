@@ -19,14 +19,13 @@ Plase run this commands on terminal to run app:
 
 - Generate .env file
 ```
-cd src
 cp .env.example .env
 ```
 Check presence of this values on .env file to connect DB:
 
 ```
 APP_URL=http://localhost
-DB_HOST=127.0.0.1
+DB_HOST=mysql 
 DB_PORT=3306
 DB_DATABASE=homestead
 ```
